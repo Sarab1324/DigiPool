@@ -13,7 +13,7 @@ function App() {
         <Route path="*" element={<DashBoard />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/for-partners" element={<Partners />} />
+        {/* <Route path="/for-partners" element={<Partners />} /> */}
       </Routes>
     </>
   );
