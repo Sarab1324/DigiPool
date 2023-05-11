@@ -1,0 +1,27 @@
+import React from "react";
+import { AiOutlinePlus } from "react-icons/ai";
+
+function Address() {
+  return (
+    <>
+      <div className="leads my-5">
+        <div className="stack2">
+        <div className="w-75 d-flex justify-content-between align-items-center">
+          <div className="btn w-100 my-0 d-flex justify-content-end">
+            <button className="btn btn-primary  d-flex align-items-center">
+              <AiOutlinePlus color={"white"} /> Add Address
+            </button>
+          </div>
+        </div>
+        <div className="d-flex flex-column align-items-center">
+          <img src="sheet.svg" alt="" />
+          <p>No Address Yet</p>
+        </div>
+
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Address;
